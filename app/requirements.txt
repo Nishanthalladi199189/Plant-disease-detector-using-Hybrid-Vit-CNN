@@ -1,0 +1,7 @@
+# Working stack for Python 3.13
+tensorflow==2.20.0
+streamlit
+numpy
+pillow
+opencv-python
+matplotlib

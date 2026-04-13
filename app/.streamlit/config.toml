@@ -1,0 +1,45 @@
+[theme]
+# Primary color used throughout the app
+primaryColor = "#2E7D32"
+
+# Background color for the main content area
+backgroundColor = "#FFFFFF"
+
+# Background color for the sidebar
+secondaryBackgroundColor = "#F0F2F6"
+
+# Color used for most text
+textColor = "#262730"
+
+# Font family (can be "sans serif", "serif", or "monospace")
+font = "sans serif"
+
+[server]
+# Maximum size of uploaded files in MB
+maxUploadSize = 10
+
+# Enable CORS (set to false for production)
+enableCORS = true
+
+# Enable XSRF protection
+enableXsrfProtection = true
+
+# Server port
+port = 8501
+
+# Server address (0.0.0.0 for network access, localhost for local only)
+address = "localhost"
+
+[browser]
+# Automatically open browser when starting
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+
+[runner]
+# Enable magic commands
+magicEnabled = true
+
+[logger]
+# Level of logging (error, warning, info, debug)
+level = "info"
